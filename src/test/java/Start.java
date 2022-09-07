@@ -4,7 +4,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
+import javax.swing.*;
 import java.util.List;
+import java.util.Set;
 
 public class Start {
 WebDriver wd;
@@ -59,7 +61,24 @@ wd.close();
     wd.findElement(By.cssSelector("[href *='om']"));
     wd.findElement(By.cssSelector("[href $='me']"));
     wd.findElement(By.cssSelector("div#root.container"));
-    wd.findElement(By.cssSelector("a[href='/home']"));
+    wd.findElement(By.cssSelector("a[href='/home'"));
+    wd.quit();
+
+}
+
+@Test
+    public void homework(){
+    wd=new ChromeDriver();
+    wd.navigate().to("file:///C:/Users/User/Downloads/index%20(1).html");
+
+     WebElement item1 = wd.findElement(By.cssSelector("a[href='#item1']"));
+    WebElement item2 = wd.findElement(By.cssSelector("a[href='#item2']"));
+    WebElement item3 = wd.findElement(By.cssSelector("a[href='#item3']"));
+    WebElement item4 = wd.findElement(By.cssSelector("a[href='#item4']"));
+    WebElement name = wd.findElement(By.name("name"));
+    WebElement surename = wd.findElement(By.name("surename"));
+    WebElement ButtonSend =  wd.findElement(By.className("btn"));
+
     wd.quit();
 
 }
