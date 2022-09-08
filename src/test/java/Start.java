@@ -79,7 +79,10 @@ wd.close();
     WebElement surename = wd.findElement(By.name("surename"));
     WebElement ButtonSend =  wd.findElement(By.className("btn"));
 
-    wd.quit();
+    List<WebElement> list = wd.findElements(By.tagName("td"));
+    WebElement element1 = list.get(9);
+
+      wd.quit();
 
 }
 }
