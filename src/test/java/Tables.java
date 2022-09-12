@@ -36,4 +36,25 @@ Assert.assertEquals(canada.getText(),"Canada");
 
         wd.quit();
     }
+
+    @Test
+    public void HomeworkTable(){
+        wd = new ChromeDriver();
+        wd.navigate().to("file:///C:/Users/User/Downloads/index%20(1).html");
+        List<WebElement> ListRows = wd.findElements(By.cssSelector("tr"));
+        System.out.println("Number of rows " + ListRows.size());
+
+        WebElement lastRow = wd.findElement(By.cssSelector("table tr:last-child"));
+        System.out.println(lastRow.getText());
+
+        List<WebElement> listColumns = wd.findElements(By.cssSelector("table tr:first-child td"));
+Assert.assertEquals(listColumns.size(),3);
+        System.out.println("Column numbers " + listColumns.size());
+
+        WebElement Israel = wd.findElement(By.cssSelector("table tr:nth-child(2) td:nth-child(2)"));
+        Assert.assertEquals(Israel.getText(),"Israel");
+        System.out.println(Israel.getText());
+
+        wd.quit();
+    }
 }
