@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ea8bcd68-accf-4a21-8b55-962602419ca8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Start.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +50,8 @@
       <recent name="C:\github\Qa35_StartSelenium" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tables.HomeworkTable">
-    <configuration name="Start.homework" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.Start.fromCssToxPath">
+    <configuration name="Start" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -64,7 +64,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;Start.homework&quot;" />
+            <option value="&quot;Start&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -74,7 +74,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Start.loginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Start.fromCssToxPath" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -87,7 +87,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;Start.loginTest&quot;" />
+            <option value="&quot;Start.fromCssToxPath&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -168,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Start.fromCssToxPath" />
+        <item itemvalue="Gradle.Start" />
         <item itemvalue="Gradle.Tables.HomeworkTable" />
         <item itemvalue="Gradle.XPathTests.XPathTests" />
         <item itemvalue="Gradle.Tables.wschoolTables" />
-        <item itemvalue="Gradle.Start.homework" />
-        <item itemvalue="Gradle.Start.loginTest" />
       </list>
     </recent_temporary>
   </component>
